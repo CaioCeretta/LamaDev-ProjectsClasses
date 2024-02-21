@@ -1,0 +1,14 @@
+.button {
+  padding: 32px;
+  min-width: 8rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  color: var(--bg)
+}
+
+.button:first-child {
+  background-color: var(--btn);
+  color: var(--text)
+}
